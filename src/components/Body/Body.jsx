@@ -1,12 +1,16 @@
-import React from 'react';
-import Nabvar from './Nabvar';
+import React from "react";
+import Nabvar from "./Nabvar";
+import BurgerBuilder from "../BurgerBuilder/BurgerBuilder";
 
 const Body = () => {
   return (
     <div>
-        <Nabvar/>
+      <Nabvar />
+      <div className="container">
+        <BurgerBuilder />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Body
+export default Body;
